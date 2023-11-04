@@ -1,3 +1,3 @@
-def call() {
-  sh 'echo Hi From DevOps Team'
+def call(name) {
+  sh 'echo ${name}, Hi From DevOps Team'
 }
